@@ -15,6 +15,7 @@ from aiogram.enums.chat_member_status import ChatMemberStatus
 from dotenv import load_dotenv
 
 load_dotenv()
+#токен
 TOKEN = os.getenv("TOKEN")
 
 logging.basicConfig(level=logging.INFO)
